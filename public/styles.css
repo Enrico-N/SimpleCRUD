@@ -1,0 +1,59 @@
+body {
+  background-color: azure;
+}
+
+.head-container {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+#top-form {
+  display: grid;
+  justify-content: center;
+  background-color: white;
+  font-size: x-large;
+  margin: 5px 0px 5px 0px;
+  border-color: black;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 1em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+#quote-section {
+  grid-area: 1/1/2/2;
+  background-color: white;
+  border-color: black;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  padding-left: 2em;
+}
+
+#replace-section {
+  grid-area: 1/2/2/3;
+  background-color: white;
+  text-align: center;
+  border-color: black;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#remove-section {
+  grid-area: 2/2/3/3;
+  background-color: white;
+  text-align: center;
+  border-color: black;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+}
